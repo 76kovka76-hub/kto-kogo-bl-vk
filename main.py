@@ -15,9 +15,7 @@ GROUP_ID = int(os.environ.get("VK_GROUP_ID", "79887216"))
 TZ = ZoneInfo("Europe/Moscow")
 HISTORY_FILE = "post_history.json"
 MAX_AGE_HOURS = 48
-POSTS_PER_DAY = 10
-SLOT_MINUTES = 90
-START_HOUR = 8
+POSTS_PER_DAY = 25
 
 FEEDS = [
     ("MMA", "https://news.google.com/rss/search?q=UFC+OR+MMA+OR+%D1%81%D0%BC%D0%B5%D1%88%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5+%D0%B5%D0%B4%D0%B8%D0%BD%D0%BE%D0%B1%D0%BE%D1%80%D1%81%D1%82%D0%B2%D0%B0&hl=ru&gl=RU&ceid=RU:ru"),
@@ -28,9 +26,9 @@ FEEDS = [
 PROMO = re.compile(r"\b(промокод|скидк\w*|купить билет|билеты на|реклама|партн[её]рск\w*|розыгрыш|мерч|магазин|ставк\w*|букмекер|казино|подписывайтесь|регистрируйтес)\b", re.I)
 NOISE = re.compile(r"\s+")
 TAGS = {
-    "MMA": ["#ММА", "#UFC", "#Единоборства", "#БойцовскийКлуб", "#НовостиММА", "#Октагон"],
-    "Бокс": ["#Бокс", "#ПрофессиональныйБокс", "#Ринг", "#НовостиБокса", "#Нокаут", "#Единоборства"],
-    "Борьба": ["#Борьба", "#ВольнаяБорьба", "#ГрекоРимскаяБорьба", "#Единоборства", "#Спорт", "#НовостиСпорта"],
+    "MMA": ["#ММА", "#UFC", "#Единоборства", "#БойцовскийКлуб", "#НовостиММА", "#Октагон", "#Бой", "#Нокаут", "#Боец", "#СмешанныеЕдиноборства", "#MMAnews", "#UFCnews", "#FightNight", "#БойцовскийМир", "#Арена", "#ТитульныйБой", "#Грэпплинг", "#Самбо", "#Борьба", "#Спорт"],
+    "Бокс": ["#Бокс", "#ПрофессиональныйБокс", "#Ринг", "#НовостиБокса", "#Нокаут", "#Единоборства", "#Бой", "#Боксёр", "#Чемпион", "#Титул", "#Поединок", "#БоксерскийМир", "#ТяжёлыйВес", "#ЛёгкийВес", "#БоксСегодня", "#Спорт", "#Арена", "#Раунд", "#Победа", "#БойцовскийМир"],
+    "Борьба": ["#Борьба", "#ВольнаяБорьба", "#ГрекоРимскаяБорьба", "#Единоборства", "#Спорт", "#НовостиСпорта", "#Грэпплинг", "#ДжиуДжитсу", "#Самбо", "#Ковёр", "#Схватка", "#Чемпионат", "#Борец", "#Победа", "#Турнир", "#БойцовскийМир", "#СпортивнаяБорьба", "#Захват", "#Финал", "#Арена"],
 }
 
 def clean(value):
@@ -40,7 +38,10 @@ def clean(value):
 def load_history():
     try:
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+            data = json.load(f)
+            data.setdefault("posted", [])
+            data.setdefault("last_slot", "")
+            return data
     except (FileNotFoundError, json.JSONDecodeError):
         return {"posted": [], "last_slot": ""}
 
@@ -70,7 +71,8 @@ def fetch_feed(category, url):
         published = parse_date(item)
         if not title or not link or PROMO.search(title + " " + desc):
             continue
-        if datetime.now(timezone.utc) - published > timedelta(hours=MAX_AGE_HOURS):
+        age = datetime.now(timezone.utc) - published
+        if age < timedelta(minutes=-10) or age > timedelta(hours=MAX_AGE_HOURS):
             continue
         items.append({"category": category, "title": title, "desc": desc, "link": link, "published": published.isoformat()})
     return items
@@ -78,37 +80,35 @@ def fetch_feed(category, url):
 def summarize(item):
     title = item["title"].strip().rstrip(".!?")
     desc = item["desc"].strip()
-    # Google News RSS often provides a short lead after the title; use it when it adds factual detail.
     if desc and len(desc) > 35 and desc.lower() not in title.lower():
         lead = re.split(r"(?<=[.!?])\s+", desc)[0].strip()
         lead = re.sub(r"\s*[-–|]\s*[^-–|]{2,50}$", "", lead).strip()
-        if 45 <= len(lead) <= 220:
-            sentence = lead
-        else:
-            sentence = title
+        sentence = lead if 45 <= len(lead) <= 220 else title
     else:
         sentence = title
     sentence = sentence[:260].rstrip(" ,;:-")
     if not sentence.endswith((".", "!", "?")):
         sentence += "."
-    # Avoid presenting a headline as confirmed fact if it is explicitly framed as a rumor.
     if re.search(r"слух|инсайд|может подписать|возможно", sentence, re.I):
         sentence = "Появилась неподтверждённая информация: " + sentence[0].lower() + sentence[1:]
     return sentence
 
 def make_post(item, history):
-    tags = TAGS[item["category"]][:]
-    random.Random(hashlib.sha256(item["link"].encode()).hexdigest()).shuffle(tags)
-    used_recent = {tag for entry in history["posted"][-30:] for tag in entry.get("tags", [])}
-    selected = [tag for tag in tags if tag not in used_recent][:3]
-    if len(selected) < 3:
-        selected += [tag for tag in tags if tag not in selected][:3-len(selected)]
+    pool = TAGS[item["category"]][:]
+    recent_tags = {tag for entry in history["posted"][-25:] for tag in entry.get("tags", [])}
+    available = [tag for tag in pool if tag not in recent_tags]
+    if len(available) < 3:
+        available = pool
+    rng = random.Random(hashlib.sha256(item["link"].encode()).hexdigest())
+    rng.shuffle(available)
+    selected = available[:3]
+
     reaction = {
-        "MMA": ["Вот такие новости из мира боёв.", "В октагоне спокойно не бывает.", "Бойцовский мир снова шумит."],
-        "Бокс": ["Ринг опять подкинул поводы для разговоров.", "В боксе скучать не дают.", "Вот это поворот в мире бокса."],
-        "Борьба": ["На ковре тоже жарко.", "Борцовский мир держит в напряжении.", "Вот это новости с ковра."],
+        "MMA": ["Вот это уже интересно, блядь!", "В октагоне спокойно не бывает.", "Бойцовский мир снова шумит."],
+        "Бокс": ["Ринг опять подкинул поводы для разговоров.", "В боксе скучать не дают, блядь.", "Вот это поворот в мире бокса."],
+        "Борьба": ["На ковре тоже жарко.", "Борцовский мир держит в напряжении.", "Вот это новости с ковра, блядь."],
     }[item["category"]]
-    text = summarize(item) + " " + random.choice(reaction)
+    text = summarize(item) + " " + rng.choice(reaction)
     return text + "\n\nИсточник: " + item["link"] + "\n\n" + " ".join(selected), selected
 
 def vk_post(message):
@@ -129,14 +129,21 @@ def vk_post(message):
 
 def main():
     now = datetime.now(TZ)
-    slot_index = int((now.hour * 60 + now.minute - START_HOUR * 60) // SLOT_MINUTES)
-    if slot_index < 0 or slot_index >= POSTS_PER_DAY:
-        print("Сейчас вне временных слотов публикации.")
-        return
+    minutes_today = now.hour * 60 + now.minute
+    slot_index = (minutes_today * POSTS_PER_DAY) // 1440
     slot = f"{now.date()}-{slot_index}"
     history = load_history()
     if history.get("last_slot") == slot:
         print("Слот уже обработан.")
+        return
+
+    # Safety cap: never publish more than 25 posts in one Moscow calendar day.
+    today_count = sum(
+        1 for entry in history["posted"]
+        if entry.get("posted_at", "").startswith(str(now.date()))
+    )
+    if today_count >= POSTS_PER_DAY:
+        print("Дневной лимит 25 публикаций уже достигнут.")
         return
 
     candidates = []
@@ -164,10 +171,10 @@ def main():
         "link": item["link"], "category": item["category"], "tags": tags,
         "post_id": post_id, "posted_at": now.isoformat(), "slot": slot,
     })
-    history["posted"] = history["posted"][-500:]
+    history["posted"] = history["posted"][-1000:]
     history["last_slot"] = slot
     save_history(history)
-    print(f"УСПЕХ: опубликовано ({item['category']}), post_id={post_id}")
+    print(f"УСПЕХ: опубликовано ({item['category']}), post_id={post_id}, публикаций сегодня={today_count + 1}")
     print(message)
 
 if __name__ == "__main__":
