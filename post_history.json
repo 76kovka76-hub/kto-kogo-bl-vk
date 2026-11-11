@@ -191,7 +191,19 @@
       "post_id": 135,
       "posted_at": "2026-11-11T22:28:11.543954+03:00",
       "slot": "2026-11-11-23"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYW9Cd1dPSlhrdm1HeWFDUzdjUzdZSUhYUExGRmdzOHFmT2JLYXZTUTM3cGF0a0Izd1BzQkltYjlYaVlsQk1ObXZMRC1HRVBzSWVadVhfbWExMWh2akZOUGppTWVyc2hBckJGZ3dyVC1FM0lHMFBfMjMwODE4VklQOVBFV2NvZ1pRRGtTVVoxQW11SFBXeGJHSGh3WFoyTVByd0pjM296bEdVUkZQaFl1RnRHZHRneVBoMDhvQmF1Q1VHVXVJdDJGX0VDcGVzNVRTbWVDQUVYUnVEMDA?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#ЛёгкийВес",
+        "#Бой",
+        "#Бокс"
+      ],
+      "post_id": 136,
+      "posted_at": "2026-11-12T01:55:29.952391+03:00",
+      "slot": "2026-11-12-1"
     }
   ],
-  "last_slot": "2026-11-11-23"
+  "last_slot": "2026-11-12-1"
 }
