@@ -47,7 +47,19 @@
       "post_id": 123,
       "posted_at": "2026-11-11T10:47:47.201891+03:00",
       "slot": "2026-11-11-11"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT1lpR2NTd29XQU9XTWtKcWZrcl92aUhISVdILURla0h3b3ptQS1kbDM3MXp5b0pNSzlPQjRyaFhjRDIwVFdDRG9UWm1QVHFtN1lfNloyaTY5cGhpZzVtOVpfWm1UZ1pHekFVVXpyekgyUFMtRkp5anUyclNkaF9TNlBjQzVFN1lQbDZqRTM1TF9xSDFqQ1hSMFNuY0o5TUgxNkU2ZEtGNXB0X0NzNXBNdkZvd1k?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#ПрофессиональныйБокс",
+        "#БоксерскийМир",
+        "#Бой"
+      ],
+      "post_id": 124,
+      "posted_at": "2026-11-11T11:42:06.385129+03:00",
+      "slot": "2026-11-11-12"
     }
   ],
-  "last_slot": "2026-11-11-11"
+  "last_slot": "2026-11-11-12"
 }
