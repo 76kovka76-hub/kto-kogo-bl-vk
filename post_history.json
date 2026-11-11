@@ -35,7 +35,19 @@
       "post_id": 122,
       "posted_at": "2026-11-11T09:28:13.409561+03:00",
       "slot": "2026-11-11-9"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSN0dOcHFFR1FNTDh3VTFGZW9HRWdsZ041R1pBeUdVS1pLWnlvQ2tySGJGUHhVbXlLWjIwWWlHcFl1NjFTa3dYLU1POFlzbmN1cnBRcHJlVHNWUXFUMHRueFlDbHBWX3FqLWdlZld0bw?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#БойцовскийМир",
+        "#Победа",
+        "#ТяжёлыйВес"
+      ],
+      "post_id": 123,
+      "posted_at": "2026-11-11T10:47:47.201891+03:00",
+      "slot": "2026-11-11-11"
     }
   ],
-  "last_slot": "2026-11-11-9"
+  "last_slot": "2026-11-11-11"
 }
