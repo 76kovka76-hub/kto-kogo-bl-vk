@@ -143,7 +143,19 @@
       "post_id": 131,
       "posted_at": "2026-11-11T18:31:56.167995+03:00",
       "slot": "2026-11-11-19"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMmhBeHJCTjRGS1Fxb3hZNHFaQ3o3NGZMdjljelRQQ3BwQ0ZkZ29QdEtXWEhjM3pkbW9uYUNrd0l1SEt1cFlmalQ4aW5abkdXZHV6X0UzbnZJek90WkVzWDR6VDlER2NNamtaSnU4dFBLRGVYbWhNM2ljYjN6N2h3WlprQmZYbHpic3FoOWx6NFF5Y3hqcjJ0QVhxWnZqMVlPWlVudG00LUlMZ3UwUHN2d09mQU55M21BMnlNZnllcjRKVEhDcUx2bzhxVQ?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#Раунд",
+        "#Поединок",
+        "#Бокс"
+      ],
+      "post_id": 132,
+      "posted_at": "2026-11-11T19:30:17.021571+03:00",
+      "slot": "2026-11-11-20"
     }
   ],
-  "last_slot": "2026-11-11-19"
+  "last_slot": "2026-11-11-20"
 }
