@@ -203,7 +203,19 @@
       "post_id": 136,
       "posted_at": "2026-11-12T01:55:29.952391+03:00",
       "slot": "2026-11-12-1"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORkVRMDBHWDM0ZEpwanBOY0pRZmQ0NUd5Vkpxc2x4dGRXSWxBYTZsYkhRbWVKN0tzdV9uVERqOTAyNno1dXhiVy1RUm1NUlNuQ3lsUnEycmIxWkpmcFltSEZGdE9xSVh6bWlKMm5qTnVkR2lQSDk1M0FHWGgwZ0t0Y1BCTG5vSDdqQVZzVThIMlpEdFdaUmlpUkx4Q0tjWkN6bUtoZmpFeDdPZDFHZkxiOEtldGlVZVE2RnQ1LUhzbFpxWTIwNzNfUkFCdktET28?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#Спорт",
+        "#ЛёгкийВес",
+        "#Арена"
+      ],
+      "post_id": 137,
+      "posted_at": "2026-11-12T02:37:03.846835+03:00",
+      "slot": "2026-11-12-2"
     }
   ],
-  "last_slot": "2026-11-12-1"
+  "last_slot": "2026-11-12-2"
 }
