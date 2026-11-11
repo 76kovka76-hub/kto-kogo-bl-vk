@@ -109,7 +109,7 @@ def make_post(item, history):
         "Борьба": ["На ковре тоже жарко.", "Борцовский мир держит в напряжении.", "Вот это новости с ковра, блядь."],
     }[item["category"]]
     text = summarize(item) + " " + rng.choice(reaction)
-    return text + "\n\nИсточник: " + item["link"] + "\n\n" + " ".join(selected), selected
+    return text + "\n\n" + " ".join(selected), selected
 
 def vk_post(message):
     import urllib.parse
