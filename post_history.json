@@ -59,7 +59,19 @@
       "post_id": 124,
       "posted_at": "2026-11-11T11:42:06.385129+03:00",
       "slot": "2026-11-11-12"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRENSRmlBWVdrNFNodENwUzdGUGZYMVlQdUJ5d2xLSlB3Sld4SElxV1MzZEJKcnhxSXJCTjg4U3ZRVkVzajRwQmhuOFc0UGNXdUttZjdkX2doOTJ4cWozVjJVOFVHMkpoSzRRSVlpajB2YWVHZUZiMk04UzJIUWkxQ3B3OW1QZU9yYWwwMFNDNUVVbHg4M3plQjRDYmhvRlV1RHhXRjJZd24?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#НовостиБокса",
+        "#Поединок",
+        "#Титул"
+      ],
+      "post_id": 125,
+      "posted_at": "2026-11-11T12:40:20.873970+03:00",
+      "slot": "2026-11-11-13"
     }
   ],
-  "last_slot": "2026-11-11-12"
+  "last_slot": "2026-11-11-13"
 }
