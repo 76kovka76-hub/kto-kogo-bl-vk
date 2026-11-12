@@ -299,7 +299,19 @@
       "post_id": 144,
       "posted_at": "2026-11-12T10:56:30.637321+03:00",
       "slot": "2026-11-12-11"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNzlnd2JaYWlLV2VLZl9zOG1ZZy1xaDd1SFBpTi1RRDRTY245SlUtVHNpWUEwcmg2UlNDUUZKdWFBN0tVbFBRc1BkTloxQS1udjVNVnRHcENIQUJiUG95Q0RndmdDVnl1WF9DYnV6eDdmelBGNjg3dmd3T1B6Nl92UGlBWjRSZ1ctNVE?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#Бой",
+        "#Титул",
+        "#Боксёр"
+      ],
+      "post_id": 145,
+      "posted_at": "2026-11-12T11:54:30.713193+03:00",
+      "slot": "2026-11-12-12"
     }
   ],
-  "last_slot": "2026-11-12-11"
+  "last_slot": "2026-11-12-12"
 }
