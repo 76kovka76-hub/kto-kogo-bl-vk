@@ -467,7 +467,19 @@
       "post_id": 158,
       "posted_at": "2026-11-13T00:15:08.427881+03:00",
       "slot": "2026-11-13-0"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb2hRSjJoS0xTWXBOX1pzaFg1SmtDVEMxbktYcVVqQmpIcTdrZy12VUFDQXFzQUUzcHBTd25mQXFoRFJ1VFJpZkVyWTZ5LWZiZjIwcG9UNXRGX3Bwam51XzQ3ODF0QmJHX1FnSXU4bXZpT0ptLXJrTGtfMkRxSTBsOVJiYW1QMnRZQnczQVM0Yll2ZE85NEJNOTNlTlJieE9KSEw3a0pIdGtpY2pnazZWdnpvaXpBc2gtcFM3ZHYwZFItb1o0ZW1VMW42NA?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#Нокаут",
+        "#НовостиБокса",
+        "#Бой"
+      ],
+      "post_id": 159,
+      "posted_at": "2026-11-13T01:04:42.799504+03:00",
+      "slot": "2026-11-13-1"
     }
   ],
-  "last_slot": "2026-11-13-0"
+  "last_slot": "2026-11-13-1"
 }
