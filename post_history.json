@@ -371,7 +371,19 @@
       "post_id": 150,
       "posted_at": "2026-11-12T16:57:45.767166+03:00",
       "slot": "2026-11-12-17"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTDA0SU1lN1VwM05XYWp5OWVFRnBNanZaa01IVmhSUTlDdkNvUjZ0UG9MS0RGM2d2Y1VVRDRMUFRrcmloOVZZb2lfV2pTdTlMVklveV9pYkowazVpRFhQWGpJTmFnTzBPcVNaMjZvQWQ0OXV0b1lqSWU5LWd2REk0cXY5T3ZqTDNUeGVobTNRVEhCZHFQY0JuZUljcVBDT2FxOGVESzhRU3UyVl9hVGJ1U2E0a1Y3RlpRUTFqWkVoOUdNWDlHa2I1TzFvdkVQRk1yQzI0SWFwbXJLd28?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#Чемпион",
+        "#Спорт",
+        "#Бой"
+      ],
+      "post_id": 151,
+      "posted_at": "2026-11-12T17:52:01.574702+03:00",
+      "slot": "2026-11-12-18"
     }
   ],
-  "last_slot": "2026-11-12-17"
+  "last_slot": "2026-11-12-18"
 }
