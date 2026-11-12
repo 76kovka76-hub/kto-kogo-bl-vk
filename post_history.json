@@ -479,7 +479,19 @@
       "post_id": 159,
       "posted_at": "2026-11-13T01:04:42.799504+03:00",
       "slot": "2026-11-13-1"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRDdnbWVHVEhEdmNjVHB6SEcyc0otdThPX1dFUWpBazNUVnV6ZUFFNFFzbkozdk1OYVJHbmFBZ1Y4R0EyTGo1aXJScHhIdWNMUENlQTdhRmQtMWFDckxIREp2TU85a0F3MWZuY1IxMmgzSVNfenRwc2NxVTVjelN6QmcxM3ExNWpKd29sV2YwMDA2emVrcENQcGpwSkxEbEJ2ZjRHdmJMNUlFczJIemNab2xmdUhvWDVfTVo4VHAzSDRoX3ZyUnM3bVU5MFBuNVk?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#БоксСегодня",
+        "#Бокс",
+        "#Арена"
+      ],
+      "post_id": 160,
+      "posted_at": "2026-11-13T02:27:52.095543+03:00",
+      "slot": "2026-11-13-2"
     }
   ],
-  "last_slot": "2026-11-13-1"
+  "last_slot": "2026-11-13-2"
 }
