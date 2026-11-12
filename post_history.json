@@ -347,7 +347,19 @@
       "post_id": 148,
       "posted_at": "2026-11-12T14:43:02.176983+03:00",
       "slot": "2026-11-12-15"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb3h0dmM2Q2VuSTRwWG54OUtVSmlHakUzSGEwYzNJNWttLVdSX3ZPaVM3dWYycXVfdjZiY1ZBWkVvb1hOd1pDbmlLWlZKNWt1WmFKMm54ZTA3RllBOUc4dWtkSl9PcEt5azhZT2RYZjRDbVQtZm9GSFlzZnVUOTNsWE9wRnR6al9fc0NRbA?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#Боксёр",
+        "#ТяжёлыйВес",
+        "#Ринг"
+      ],
+      "post_id": 149,
+      "posted_at": "2026-11-12T15:42:46.094575+03:00",
+      "slot": "2026-11-12-16"
     }
   ],
-  "last_slot": "2026-11-12-15"
+  "last_slot": "2026-11-12-16"
 }
