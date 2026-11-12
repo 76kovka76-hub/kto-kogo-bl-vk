@@ -215,7 +215,19 @@
       "post_id": 137,
       "posted_at": "2026-11-12T02:37:03.846835+03:00",
       "slot": "2026-11-12-2"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUlB2YkxoTVhKR0kxU3FvbGNGVHVtVWNLYlR2OF9GYnhPdkdYc2hkOHhkR1V3OVdrOUhZa3AtTEhHWmFCcUtSal85cnNEdWNOQzFEaTVBbWhuQmVVQldKXzd1SFZIRGdYWDR2UmZzOFgyWldvbVRZVWVsTjA4S3pmWHNkeTU0dVl0dWxta2RUUXdyTGtKTC15UkRFdlRsN1UtbEYyRTl2cHBKSmdFcnBJeDRkeDJiMnQza3VDRGdYb2VQOU9yZ0ZXTQ?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#Титул",
+        "#БоксСегодня",
+        "#ПрофессиональныйБокс"
+      ],
+      "post_id": 138,
+      "posted_at": "2026-11-12T03:31:44.181184+03:00",
+      "slot": "2026-11-12-3"
     }
   ],
-  "last_slot": "2026-11-12-2"
+  "last_slot": "2026-11-12-3"
 }
