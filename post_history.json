@@ -287,7 +287,19 @@
       "post_id": 143,
       "posted_at": "2026-11-12T09:37:27.159573+03:00",
       "slot": "2026-11-12-10"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcEFucEVlUHFjcDliWE5CMDJBbXFWeUpLcFZsN2ktRklZalFZYkdwWE42NUdLZzVsazE0dUJjcmdJYXRXVGxLNHBEQzU4WHNWVjBjanVrc0lwbHV6UWpkam51UTJHcjlOZ280RTBzM3NTM2RJYzJCa3V0MUxjbjc4cU13SVFOeWxPRDIyaTlfdEZwUm1MMERKY2RBaldRdmhYcVdrWmdzYU5uNEloRmk5d0gyT2xES0V2bUNGb3JKMmJzUFVYcy1PN3JxbFIwOFdFSl9VVw?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#Единоборства",
+        "#Бой",
+        "#НовостиБокса"
+      ],
+      "post_id": 144,
+      "posted_at": "2026-11-12T10:56:30.637321+03:00",
+      "slot": "2026-11-12-11"
     }
   ],
-  "last_slot": "2026-11-12-10"
+  "last_slot": "2026-11-12-11"
 }
