@@ -443,7 +443,19 @@
       "post_id": 156,
       "posted_at": "2026-11-12T22:30:20.337584+03:00",
       "slot": "2026-11-12-23"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMUpiUDgxSEFmSmpmQ25UMTlTUDVyWjJwZkhRNGpFQUQwMW9kR0lBUlRqNDQyUmJQTVlyV1dlQ1l0V1pNUHk5N0RWaWFOMGx5NHBVci1HYXVOSUpYVmpBZy11TGowYmVTSmZ2NnFsazhzaUI1T1lBT04zY1JROGgwUW91ZFJwYmI5TklxcGtyOHR4dFZjS3B4U0REM3Y1TWxwY0xJb1ROOXhrdVBOZzd0cUhIOHA0a285Z2F1dkN1UW40NEU?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#Арена",
+        "#Поединок",
+        "#Победа"
+      ],
+      "post_id": 157,
+      "posted_at": "2026-11-12T23:24:10.427379+03:00",
+      "slot": "2026-11-12-24"
     }
   ],
-  "last_slot": "2026-11-12-23"
+  "last_slot": "2026-11-12-24"
 }
