@@ -455,7 +455,19 @@
       "post_id": 157,
       "posted_at": "2026-11-12T23:24:10.427379+03:00",
       "slot": "2026-11-12-24"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbXFFQUdwOE9TVERuQ0VMQi1Ub2FYWkhCbGZOZmFyZTVtLUROY3FjMjJwMXVXaml5N2trZ3lTeDFzQVNiV0hhcS1SM3JSdkNyaU1TN2kzT2RTRndyOFR2d2dJY1pNT1c2dklXNUFRRjJlbjU2eGZJRXVJNnlFYy13Z1VNY01VVEZKa1dVVUZvTDBmU2JjSWZMa2VITHR3YkVkM2lQMHZwcFh4dngzRU0yMHdZenN5Y2lkdkdycVpKTmk4V2ZaRnRPQ1J3?oc=5",
+      "category": "MMA",
+      "tags": [
+        "#НовостиММА",
+        "#ТитульныйБой",
+        "#FightNight"
+      ],
+      "post_id": 158,
+      "posted_at": "2026-11-13T00:15:08.427881+03:00",
+      "slot": "2026-11-13-0"
     }
   ],
-  "last_slot": "2026-11-12-24"
+  "last_slot": "2026-11-13-0"
 }
