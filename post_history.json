@@ -755,7 +755,19 @@
       "post_id": 182,
       "posted_at": "2026-11-14T00:00:09.879781+03:00",
       "slot": "2026-11-14-0"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRFU4aUdyUklwS0h0UDRvMVB0YjBWZ011RWN4UXVjU2ZpTG0wTGx1NVFTeFVIOVZzVU91MFRlVEhhYjVrN3d5OVVsUE9faDUtT1lhbWVDb2hxUENQa1YzMjkyQjhkNTVYUW1GbEN2anJJU2xwblhjVEpyeE44VExaSVRheWlLeUZITHNuVkdyYlllVFlhN2g4RUE1WjJTZVAtbUhrX0wwMkxPdGN3bkNQVE1uVWNlc21xMW4wQVg5X2sxM1ZEaExNUnZlX1JVRzk4Vjk5dlFIMA?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#НовостиБокса",
+        "#Боксёр",
+        "#Чемпион"
+      ],
+      "post_id": 183,
+      "posted_at": "2026-11-14T01:28:49.961784+03:00",
+      "slot": "2026-11-14-1"
     }
   ],
-  "last_slot": "2026-11-14-0"
+  "last_slot": "2026-11-14-1"
 }
