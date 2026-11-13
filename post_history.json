@@ -515,7 +515,19 @@
       "post_id": 162,
       "posted_at": "2026-11-13T04:30:05.978723+03:00",
       "slot": "2026-11-13-4"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcTB3WFZXUlpQVGtPMnZaZkxUTElBZUxia1BQMHV0SHJLVmtrVkV3UlBid3lIX0ZLUDJLNjctT1VkbXZVVDFjUUwzMGtGRHFRaG9CODRReVJROXY5cHpUclJueUEwbFlqVkltOXlqSUFRX1UzaW9ua0FaRXpwdmtMM2FPSDdYRzAzZVVEb3R1WjN0R0FTeS1FTldWVm96M3pJdENXYTNuNU9lWFB4elJROFFyZHNPUTF6NVBrRHV1N04xZm5ENUtRaHlHX1pmc1JvYWh5dDJpV1NMenpCUWlhOEVhdVg1N2JqMmI1bGlNR1M?oc=5",
+      "category": "MMA",
+      "tags": [
+        "#Бой",
+        "#Борьба",
+        "#НовостиММА"
+      ],
+      "post_id": 163,
+      "posted_at": "2026-11-13T05:23:59.236893+03:00",
+      "slot": "2026-11-13-5"
     }
   ],
-  "last_slot": "2026-11-13-4"
+  "last_slot": "2026-11-13-5"
 }
