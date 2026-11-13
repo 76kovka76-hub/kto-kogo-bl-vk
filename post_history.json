@@ -671,7 +671,19 @@
       "post_id": 175,
       "posted_at": "2026-11-13T17:40:20.246911+03:00",
       "slot": "2026-11-13-18"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xX3NfcEttRWt6RWpjbk9VLU9LTWpPaVJKUjk4dklPMDdycFM1QjRyNGxHZGtUdWI0VUZGRFVIcWVPWGZ6a3JiTDFBSENNNkt0MEE?oc=5",
+      "category": "MMA",
+      "tags": [
+        "#Боец",
+        "#UFC",
+        "#UFCnews"
+      ],
+      "post_id": 176,
+      "posted_at": "2026-11-13T18:28:36.513065+03:00",
+      "slot": "2026-11-13-19"
     }
   ],
-  "last_slot": "2026-11-13-18"
+  "last_slot": "2026-11-13-19"
 }
