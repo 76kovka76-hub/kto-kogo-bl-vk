@@ -551,7 +551,19 @@
       "post_id": 165,
       "posted_at": "2026-11-13T07:17:54.601822+03:00",
       "slot": "2026-11-13-7"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQci1EVmJDZ2JKaVRzWlJuNU9GT0w0V0pKQWdJb3BuVnh1WEdaSl9PSGk5UWp3MDJzZ1dUbVRZc015SHowZkg0VWluUkg2OTZBM3ZHVTJMMDVKaXNDdnlUYlRpYnF4VFFnSHNreDVUbUFPQUh1M0V0VmdhUVhUNjBLWUEzUTFCVjVtRWRvcWhQaExQc3V3VEo0MkR1Z1oxRm14RGJkYlVGU1VXTjZ4bFltN1FkM2daaldjS3dEZWV3bk5HVjZ2T3pWWE5OWVlTNkVPNm9hM0tR?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#Единоборства",
+        "#Бой",
+        "#Поединок"
+      ],
+      "post_id": 166,
+      "posted_at": "2026-11-13T08:21:23.851846+03:00",
+      "slot": "2026-11-13-8"
     }
   ],
-  "last_slot": "2026-11-13-7"
+  "last_slot": "2026-11-13-8"
 }
