@@ -527,7 +527,19 @@
       "post_id": 163,
       "posted_at": "2026-11-13T05:23:59.236893+03:00",
       "slot": "2026-11-13-5"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzc0RSMXA0WnZxaGNhSFc2WWJ3ZWNpZHhFOThlTXEyZUtzSGJWLUdZS3l4ZjZnb29fbF9FUE95WjZ6SC0yRGdDeTA1UzJmUTFvYkdjMGhRYW5tbVhRY3psS1N4akYzbjZhTW5N?oc=5",
+      "category": "MMA",
+      "tags": [
+        "#Октагон",
+        "#Нокаут",
+        "#СмешанныеЕдиноборства"
+      ],
+      "post_id": 164,
+      "posted_at": "2026-11-13T06:16:12.201009+03:00",
+      "slot": "2026-11-13-6"
     }
   ],
-  "last_slot": "2026-11-13-5"
+  "last_slot": "2026-11-13-6"
 }
