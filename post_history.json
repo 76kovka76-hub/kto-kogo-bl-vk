@@ -767,7 +767,19 @@
       "post_id": 183,
       "posted_at": "2026-11-14T01:28:49.961784+03:00",
       "slot": "2026-11-14-1"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNcDRPVHUyNElJVXlrMVhnelJETVlmVXAxamFaTU83Sm9TRldodVh4ZVN2cXFpX2xBekxSVmtiR0staXBnU0duYmF3dndyUUdpOVJhM3RVMFhFbHhyOGdFelBlOERFaERVRXBzSkhBU0hBTW44cFRiWTk1RnhDbGdWU2R4X1RJa0tjc1U2ZlBjZEdpYjdtbjJpVndrN2M0NlJyMUNBVmVWQlFVVGhwOG4ta1oxSlZkRkhnQVphWGNfZXMyMTcwb1hCSnFveHRyUXN5NmpqOXRUcWs4U3dRWUE1WDRId2hnMHVNaDBDRFNIV0RWeDBZeWFhNVVDaHpuNUZ4MXFfWTlFZw?oc=5",
+      "category": "MMA",
+      "tags": [
+        "#Грэпплинг",
+        "#ТитульныйБой",
+        "#НовостиММА"
+      ],
+      "post_id": 184,
+      "posted_at": "2026-11-14T02:15:12.027106+03:00",
+      "slot": "2026-11-14-2"
     }
   ],
-  "last_slot": "2026-11-14-1"
+  "last_slot": "2026-11-14-2"
 }
