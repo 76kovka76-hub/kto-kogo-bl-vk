@@ -731,7 +731,19 @@
       "post_id": 180,
       "posted_at": "2026-11-13T22:15:20.152585+03:00",
       "slot": "2026-11-13-23"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLXFmcVFpODdua0hGeFlCOVFFQ0IyUHlvUWZMVTVZLXpSbGNtZEFzODl5R09Fc0x1OXE5a3J6NFgxQ2JoTFhsYlZFSWRxSWhlbEhvdW80cnU2enQ4R0pSaGt1TkZTZDJDR1VHakpRbWNNM29DaHF5Ty1zYlkzM1pIbk1zVWlnUjYyRE1CNmExai1SenRSaWhrdTZxUXVsdXBaZmYxUlNITXZmeWNV?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#НовостиБокса",
+        "#Победа",
+        "#Чемпион"
+      ],
+      "post_id": 181,
+      "posted_at": "2026-11-13T23:10:04.718880+03:00",
+      "slot": "2026-11-13-24"
     }
   ],
-  "last_slot": "2026-11-13-23"
+  "last_slot": "2026-11-13-24"
 }
