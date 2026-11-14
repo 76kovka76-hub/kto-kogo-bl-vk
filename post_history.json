@@ -815,7 +815,19 @@
       "post_id": 187,
       "posted_at": "2026-11-14T05:33:35.926246+03:00",
       "slot": "2026-11-14-5"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObE5OQVh5MUhfX0x2eWpkUHZwX0w2aXpPaDZfWThQMVZjdDgteFZ5ZEJGdUpDYUNLbnhROFM0dnpWblEwS2Jjek9HZEFfclQ1bHI2Znp1VjItem1TWDdiVGszQjZxTGtkeF9mVGsyWVYtcGNIZWpMVVAyV3hxSkhpYnBaLXNLY2s?oc=5",
+      "category": "Борьба",
+      "tags": [
+        "#Турнир",
+        "#ВольнаяБорьба",
+        "#Захват"
+      ],
+      "post_id": 188,
+      "posted_at": "2026-11-14T06:26:58.351162+03:00",
+      "slot": "2026-11-14-6"
     }
   ],
-  "last_slot": "2026-11-14-5"
+  "last_slot": "2026-11-14-6"
 }
