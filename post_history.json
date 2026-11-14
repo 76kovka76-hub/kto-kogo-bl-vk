@@ -851,7 +851,19 @@
       "post_id": 190,
       "posted_at": "2026-11-14T08:19:12.489461+03:00",
       "slot": "2026-11-14-8"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcklZR291UTZxQnFCV0hvdDVwMXcwRDRzZTZrbWdiVzVSRjV0ek10YTlEVFREWlZkMDg1TUFacnlTclBmVDYzbU0yUFB5RHlMVjM4NTY3V2NqSzZVcWhNXzlMaUZob2c0NFVtSkFza1Q4UURucnZ5dkRmTHhGNmgyc1BZU3hiaXREV1Vn?oc=5",
+      "category": "Бокс",
+      "tags": [
+        "#Арена",
+        "#Бой",
+        "#Бокс"
+      ],
+      "post_id": 191,
+      "posted_at": "2026-11-14T09:08:39.337564+03:00",
+      "slot": "2026-11-14-9"
     }
   ],
-  "last_slot": "2026-11-14-8"
+  "last_slot": "2026-11-14-9"
 }
