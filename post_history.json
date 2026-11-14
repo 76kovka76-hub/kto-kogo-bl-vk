@@ -803,7 +803,19 @@
       "post_id": 186,
       "posted_at": "2026-11-14T04:47:50.406901+03:00",
       "slot": "2026-11-14-4"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zX3drZHppSnE4THMtTzdBWTlYbEdTVXRyZnpsSHdXWGhDT1dGUWhZNUw2cmt2UWMzaDBQNmZaNWhqRjdKWGlHeTZkX29CMlk2YXFaYUpKc0NjUTVsTXRaMGxvVjFYekpCUVBF?oc=5",
+      "category": "MMA",
+      "tags": [
+        "#БойцовскийМир",
+        "#Борьба",
+        "#UFCnews"
+      ],
+      "post_id": 187,
+      "posted_at": "2026-11-14T05:33:35.926246+03:00",
+      "slot": "2026-11-14-5"
     }
   ],
-  "last_slot": "2026-11-14-4"
+  "last_slot": "2026-11-14-5"
 }
