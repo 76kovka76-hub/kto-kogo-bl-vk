@@ -791,7 +791,19 @@
       "post_id": 185,
       "posted_at": "2026-11-14T02:54:54.841322+03:00",
       "slot": "2026-11-14-3"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1TdDhNc2Z3QU44YUIzeG1ZRVVhVVhoTUMwQjZXSkg3a3B4Q1RYMXdnRWg1b3hOQlg4VXNIMlRpOXRqM1hURC1sQ24taFEzU0xG?oc=5",
+      "category": "Борьба",
+      "tags": [
+        "#Борец",
+        "#Ковёр",
+        "#ДжиуДжитсу"
+      ],
+      "post_id": 186,
+      "posted_at": "2026-11-14T04:47:50.406901+03:00",
+      "slot": "2026-11-14-4"
     }
   ],
-  "last_slot": "2026-11-14-3"
+  "last_slot": "2026-11-14-4"
 }
